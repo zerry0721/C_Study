@@ -41,12 +41,20 @@
 // 	return 0;
 // }
 
+// #include <stdio.h>
+
+// int main()
+// {
+// 	int number;  
+// 	printf("정수를 입력하세요. : ");
+	
+// 	return 0;
+// }
 #include <stdio.h>
+#define TEXT "Welcome to C Programming!!"
 
 int main()
 {
-	int number;  
-	printf("정수를 입력하세요. : ");
-	
+	printf(TEXT);
 	return 0;
 }
