@@ -1,7 +1,11 @@
-#include <stdio.h> //printf 함수를 사용할 때 필요한 헤더파일
+#include <stdio.h>
+#include <string.h>
 
-int main() //C 언어 프로그램에서 가장 처음 실행되는 함수
+int main()
 {
-    printf("Hello, world!\n");
-    return 0; //함수 바깥으로 값을 전달하는 반환값 부분
+    const char endata[64] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"};
+    char *tmp;
+    char out[256];
+    tmp=strchr(endata, 'A');
+    printf("%d",tmp-endata);
 }
