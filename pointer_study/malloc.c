@@ -37,3 +37,4 @@ int main(){
     free(out);
     return 0;
 }
+//reallock사용법 숙지.
